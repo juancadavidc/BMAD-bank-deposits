@@ -4,7 +4,7 @@
 # This script simulates incoming SMS messages to test the webhook endpoint E2E
 
 # Configuration
-WEBHOOK_URL="http://localhost:3002/api/webhook/sms"
+WEBHOOK_URL="http://localhost:3000/api/webhook/sms"
 WEBHOOK_SECRET="${WEBHOOK_SECRET:-test-webhook-secret}"
 
 # Colors for output
